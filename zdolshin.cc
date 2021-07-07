@@ -1,4 +1,4 @@
-#include "examplebot.h"
+#include "zdolshin.h"
 
 #include <ctime>
 #include <math.h>
@@ -13,7 +13,7 @@
 
 #define PI 3.1415
 
-ExampleBot::ExampleBot(int _index, int _team, std::string _name)
+Zdolshin::Zdolshin(int _index, int _team, std::string _name)
     : Bot(_index, _team, _name) {
   rlbot::GameState gamestate = rlbot::GameState();
 
@@ -32,11 +32,11 @@ ExampleBot::ExampleBot(int _index, int _team, std::string _name)
   rlbot::Interface::SetGameState(gamestate);
 }
 
-ExampleBot::~ExampleBot() {
+Zdolshin::~Zdolshin() {
   // Free your allocated memory here.
 }
 
-rlbot::Controller ExampleBot::GetOutput(rlbot::GameTickPacket gametickpacket) {
+rlbot::Controller Zdolshin::GetOutput(rlbot::GameTickPacket gametickpacket) {
 
   rlbot::flat::Vector3 ballLocation =
       *gametickpacket->ball()->physics()->location();
