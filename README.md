@@ -1,4 +1,4 @@
-# CPPExampleBot
+# zdolshin from CPPExampleBot
 
 ### Prerequisites
  - Python 3.6 or 3.7
@@ -9,11 +9,12 @@
    - Clang 7 and higher (not tested)
 
 ## How to use:
- - Make sure you've installed [Python 3.7 64 bit](https://www.python.org/downloads/). During installation:
+ - Make sure you've installed [Python 3.7 64 bit](https://www.python.org/downloads/windows). Search for a 3.7.x 32 or 64 bit executable During installation:
    - Select "Add Python to PATH"
    - Make sure pip is included in the installation
  - Clone this repository by running: `git clone https://github.com/kipje13/CPPExampleBot.git --recursive`
  - Ensure that rlbot is installed on python by running `rlbot/run.bat`. You can shut it down again if it works.
+  - It should start a Rocket League match with two Example Bots
  - Make sure you have CMake. If you don't have it, visit https://cmake.org/download/ and run the Windows win64-x64 Installer.
  - If you'd like to use Visual Studio for development:
    - Download Visual Studio from https://visualstudio.microsoft.com/.
