@@ -3,9 +3,9 @@
 ### Prerequisites
  - Python 3.6 or 3.7
  - CMake 3.8 and higher
- - Compiler with c++17 support
-   - GCC 8.1 and higher (9.1 if using mingw)
-   - Visual studion 2017 and higher
+ - Compiler with c++17 support 
+   - GCC 8.1 and higher (9.1 if using mingw)(https://code.visualstudio.com/docs/cpp/config-mingw)
+   - Visual studio 2017 and higher
    - Clang 7 and higher (not tested)
 
 ## How to use:
