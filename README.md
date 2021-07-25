@@ -4,7 +4,7 @@
  - Python 3.6 or 3.7
  - CMake 3.8 and higher
  - Compiler with c++17 support 
-   - GCC 8.1 and higher (9.1 if using mingw)(https://code.visualstudio.com/docs/cpp/config-mingw)
+   - GCC 8.1 and higher (9.1 if using mingw)(https://www.geeksforgeeks.org/complete-guide-to-install-c17-in-windows/)
    - Visual studio 2017 and higher
    - Clang 7 and higher (not tested)
 
@@ -16,11 +16,12 @@
  - Ensure that rlbot is installed on python by running `rlbot/run.bat`. You can shut it down again if it works.
   - It should start a Rocket League match with two Example Bots
  - Make sure you have CMake. If you don't have it, visit https://cmake.org/download/ and run the Windows win64-x64 Installer.
+  - First time through if you are windows you might need to run a generator tool for cmake `cmake -G "MinGW Makefiles"`
  - If you'd like to use Visual Studio for development:
    - Download Visual Studio from https://visualstudio.microsoft.com/.
    - In a command prompt (use a fresh one if you just installed cmake), navigate to the folder and run `cmake .`
    - Open Visual Studio and open the .sln file which now exists in the folder.
-   - Confirm that Build->Build Solution works.
+   - Confirm that Build->Build Solution works. (Or just run `make` in the directory you ran `cmake .` in)
    - Right click on CPPExampleBot in the solution explorer and choose 'Set as StartUp Project'
    - Start a match by executing `rlbot/run.bat`
    - Choose Debug->Start Debugging (or F5), or press the green play button in Visual Studio.
